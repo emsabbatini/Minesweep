@@ -1,0 +1,15 @@
+<header class="text-center py-3">
+    <h2>Minesweep</h2>
+</header>
+<div class="d-flex justify-content-center height-all">
+    <div>
+        <div class="d-flex justify-content-center">
+            <div>
+                <button name="restart" class="btn btn-sm" (click)="restart()">
+                    Restart
+                </button>
+            </div>
+        </div>
+        <board [game]="game"></board>
+    </div>
+</div>
